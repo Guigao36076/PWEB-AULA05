@@ -1,0 +1,51 @@
+/*PARA SELECIONAR A PAGINA INTEIRA, SELECIONAMOS O SELETOR * */
+
+/* <!-- COLOCAR IMAGEM DE FUNDO --> */
+
+body{
+ background-image: url("../img/1Vv.gif");
+ background-size: cover;
+}
+
+
+/* ADICIONANDO COR NO SETOR P */
+p{
+    color: rgb(187, 255, 0);
+    text-align: center;
+    
+}
+
+/*PARA IDENTIFICAR A CLASS, DIGITA-SE .(NOME DA CLASS) EXEMPLO: ( .centro) */
+
+.centro{
+    text-align: center;
+    color: rgb(204, 33, 33);
+    background-color: rgb(8, 7, 7);
+   
+}
+
+/*PARA IDENTIFICAR O ID, DIGITA-SE #(NOME DO ID) EXEMPLO: ( #unico) */
+#unico{
+    color: blue;
+    background-color: orange;
+    text-align: center;
+}
+ 
+.lab {
+    color: darkgreen;
+    background-color: whitesmoke;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.prof{
+    color: rgb(192, 19, 120);
+    text-decoration:dotted;
+    text-align: center;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font: bold italic 30px 'Roboto';
+    font-size: 30;
+    font-weight: 200;
+}
